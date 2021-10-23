@@ -1,17 +1,11 @@
-# ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
-# ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
-# ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝ 
-# ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗ 
-# ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
-# ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝                                             
-#
-#      ██████╗ ██████╗ ██████╗ ███████╗██████╗   
-#     ██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔══██╗  
-#     ██║     ██║   ██║██║  ██║█████╗  ██████╔╝  
-#     ██║     ██║   ██║██║  ██║██╔══╝  ██╔══██╗  
-#     ╚██████╗╚██████╔╝██████╔╝███████╗██║  ██║  
-#      ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝                                        
-# TODO: change https://github.com/PhoenixK7PB/content-archiver
+# 
+# ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗      ██████╗
+# ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝     ██╔════╝
+# ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝█████╗██║     
+# ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗╚════╝██║     
+# ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗     ╚██████╗
+# ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝      ╚═════╝    
+# TODO ADD REPO
 #
 
 import os
@@ -127,27 +121,16 @@ def show_menu():
     function that prints the main menu options
     :return: menu banner with options
     """
-    print(color.red(color.bold("  ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗")))
-    print(color.red(color.bold("  ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝")))
-    print(color.red(color.bold("  ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝ ")))
-    print(color.red(color.bold("  ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗ ")))
-    print(color.red(color.bold("  ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗")))
-    print(color.red(color.bold("  ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝")))
-    print(color.red(color.bold("                                                 ")))
-    print(color.red(color.bold("       ██████╗ ██████╗ ██████╗ ███████╗██████╗   ")))
-    print(color.red(color.bold("      ██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔══██╗  ")))
-    print(color.red(color.bold("      ██║     ██║   ██║██║  ██║█████╗  ██████╔╝  ")))
-    print(color.red(color.bold("      ██║     ██║   ██║██║  ██║██╔══╝  ██╔══██╗  ")))
-    print(color.red(color.bold("      ╚██████╗╚██████╔╝██████╔╝███████╗██║  ██║  ")))
-    print(color.red(color.bold("       ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝  ")))
+    print(color.red(color.bold("  ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗      ██████╗")))
+    print(color.red(color.bold("  ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝     ██╔════╝")))
+    print(color.red(color.bold("  ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝█████╗██║     ")))
+    print(color.red(color.bold("  ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗╚════╝██║     ")))
+    print(color.red(color.bold("  ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗     ╚██████╗")))
+    print(color.red(color.bold("  ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝      ╚═════╝")))                                                          
     print("             by " + color.red(color.bold("brunao das marmita")))
-    print(color.yellow(color.bold("1")) + ") Download video/playlist/channel  " +
+    print(color.yellow(color.bold("option number")) + ") option description  " +
           color.red(color.bold("|")) + "  ")
-    print(color.yellow(color.bold("2")) + ") Groups                           " +
-          color.red(color.bold("|")) + "  ")
-    print(color.yellow(color.bold("0")) + ") Exit                             " +
-          color.red(color.bold("|")) + "  ")
-
+ 
 def wait_input():
     """
     this function will detect any key press, until that happens, the program will wait
