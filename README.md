@@ -2,10 +2,7 @@
 
 - [DESCRIPTION](#description)
 - [INSTALLATION](#installation)
-- [GROUPS](#groups)
-- [DOWNLOAD OPTIONS](#download-options)
-- [VIDEO SORTING](#sorting)
-- [TORRENT INTEGRATION](#torrent-integration)
+- [LANGUAGE](#language)
 - [FAQ](#faq)
 - [BUGS](#bugs)
 
@@ -14,6 +11,14 @@
 Matrix-c uses matrices to encode and decode messages using multiplication and inverse matrices.
 
 Matrix-c was part of a math project for my class. 
+
+# LANGUAGE
+
+The program is writen in pt-br, since it was made for my class
+
+Comments are writen in en-us
+
+I'm too lazy to translate this README
 
 # INSTALLATION
 
