@@ -162,16 +162,7 @@ class Matrix:
             print(color.red(color.bold("Erro. ")) + "Matriz codificadora não é 2x2.")
             wait_input()
             return
-        if msg == None or "" or " ":
-            clear()
-            print("Permitido apenas letras de a-z e espaço na mensagem original. " +
-                  "Proibido números, caracteres especiais ou com acento.")
-            wait_input()
-            return
         if self.caseTest(msg):
-            # clear()
-            # print("Aviso: caracteres maiúsculos serão convertidos em minúsculos.")
-            # wait_input()
             msg = msg.lower()
         for char in msg:
             if char not in characters_dict:
